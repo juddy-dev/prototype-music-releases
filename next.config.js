@@ -4,15 +4,14 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   swcMinify: true,
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
+  basePath: '/prototype-music-releases',
+  assetPrefix:  '/prototype-music-releases',
   reactStrictMode: false, // changed this to false
 
   images: {
     domains: [
       ''
     ],
-    // Make ENV
     unoptimized: true,
   },
   experimental: {

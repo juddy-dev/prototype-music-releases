@@ -1,6 +1,6 @@
 # 🚀 React 18 + Next.js + AWS Amplify
 
-→→→ [CLICK HERE TO TEST](????)
+→→→ [CLICK HERE TO TEST](https://juddy-dev.github.io/prototype-music-releases/)
  - Email: test@juddy.dev
  - Password: T3st*123
 
@@ -24,7 +24,7 @@ Follow these steps to install the project in your local environment:
 1. Clone the repository:
 
    ```bash
-   git clone ???
+   git clone https://github.com/juddy-dev/prototype-music-releases.git
 
 2. Install the dependencies:
 
