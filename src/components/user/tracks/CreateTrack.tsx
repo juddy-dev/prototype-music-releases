@@ -91,9 +91,6 @@ function CreateTrack(props) {
         idState: track.idState == 1 ? 2 : track.idState
       });
 
-      //@ts-ignore
-      setSelectedProperties(track?.track_properties);
-
     }
   }, [track]);
 

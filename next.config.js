@@ -4,9 +4,9 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   swcMinify: true,
-  basePath: '/prototype-music-releases',
-  assetPrefix:  '/prototype-music-releases',
-  reactStrictMode: false, // changed this to false
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
+  reactStrictMode: false,
 
   images: {
     domains: [
@@ -18,5 +18,4 @@ const nextConfig = {
   },
 };
 
-// module.exports = withTM(nextConfig);
 module.exports = nextConfig;
